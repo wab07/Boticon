@@ -30,7 +30,7 @@ TLote anadirLote(){
 	cin>>nuevo->diaIngreso;
 	cout<<"Mes de ingreso: ";
 	cin>>nuevo->mesIngreso;
-	cout<<"Año de ingreso: ";
+	cout<<"AÃ±o de ingreso: ";
 	cin>>nuevo->anoIngreso;
 	nuevo->sgte=NULL;
 	return nuevo;
@@ -129,7 +129,7 @@ void InsertarLote(TpLista lista, string nombreB){
 			}
 			t->sgte=nuevoLote;
 		}
-		cout<<"Lote añadido a "<<medicina->nombreMedicina<<endl;
+		cout<<"Lote aÃ±adido a "<<medicina->nombreMedicina<<endl;
 	}	else cout<<"No se encontro una medicina "<<nombreB<<endl;
 	
 }
@@ -155,7 +155,7 @@ void menu()
 	system("CLS");
 	cout<<"Fumo"<<endl;
 	cout<<"1. Insertar nueva medicina"<<endl;
-	cout<<"2. Añadir cantidad de productos a medicina existente"<<endl;
+	cout<<"2. AÃ±adir cantidad de productos a medicina existente"<<endl;
 	cout<<"3. Mostrar medicina"<<endl;
 }
 
