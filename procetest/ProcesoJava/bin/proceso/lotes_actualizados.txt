@@ -1,0 +1,3 @@
+Paracetamol,Analgesico,100,1,365,2,3,2025
+Amoxicilina,Antibiotico,50,2,180,2,3,2025
+Ibuprofeno,Antiinflamatorio,200,3,730,2,3,2025
